@@ -1,0 +1,13 @@
+header {
+  height: 210px;
+  .h_left {
+    float: left;
+  }
+  .h_right {
+    float: right;
+  }
+  .h_center {
+    overflow: hidden;
+    text-align: center;
+  }
+}

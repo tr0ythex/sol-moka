@@ -1,0 +1,12 @@
+@import 'utilities/fonts';
+@import 'utilities/variables';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'pages/index';
+
+.wrapper {
+  width: 960px;
+  min-width: 960px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
