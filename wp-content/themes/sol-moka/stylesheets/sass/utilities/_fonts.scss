@@ -1,57 +1,40 @@
 @font-face { 
-    font-family: Merel;
-    src: url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf') format('opentype'), /* Almost like ttf */
-        url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg'); /* Legacy iOS */
+    font-family: HelveticaNeueCyr;
+    src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf') format('opentype'), /* Almost like ttf */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg'); /* Legacy iOS */
+    font-weight: 400; 
+}
+@font-face { 
+    font-family: HelveticaNeueCyr;
+    src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.otf') format('opentype'), /* Almost like ttf */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg'); /* Legacy iOS */
     font-weight: 300; 
 }
 @font-face { 
-    font-family: Merel;
-    src: url('/fonts/Merel/Merel.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/Merel/Merel.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/Merel/Merel.otf') format('opentype'), /* Almost like ttf */
-        url('/fonts/Merel/Merel.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/Merel/Merel.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/Merel/Merel.svg#Merel') format('svg'); /* Legacy iOS */
+    font-family: PermianSerifTypeface;
+    src: url('../fonts/PermianSerifTypeface/PermianSerifTypeface.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypefacs.otf') format('opentype'), /* Almost like ttf */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface') format('svg'); /* Legacy iOS */
     font-weight: 400; 
-}
-@font-face { 
-    font-family: Merel;
-    src: url('/fonts/Merel/Merel-Bold.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/Merel/Merel-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/Merel/Merel-Bold.otf') format('opentype'), /* Almost like ttf */
-        url('/fonts/Merel/Merel-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/Merel/Merel-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/Merel/Merel-Bold.svg#Merel-Bold') format('svg'); /* Legacy iOS */
-    font-weight: 700; 
-}
-@font-face { 
-    font-family: LeksaPro;
-    src: url('/fonts/LeksaPro/LeksaPro-Light.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/LeksaPro/LeksaPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/LeksaPro/LeksaPro-Light.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/LeksaPro/LeksaPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/LeksaPro/LeksaPro-Light.svg#LeksaPro-Light') format('svg'); /* Legacy iOS */
-    font-weight: 700; 
-}
-@font-face { 
-    font-family: LeksaPro;
-    src: url('/fonts/LeksaPro/LeksaPro-Italic.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/LeksaPro/LeksaPro-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/LeksaPro/LeksaPro-Italic.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/LeksaPro/LeksaPro-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/LeksaPro/LeksaPro-Italic.svg#LeksaPro-Italic') format('svg'); /* Legacy iOS */
-    font-style: italic; 
 }
 @font-face { 
     font-family: PermianSerifTypeface;
-    src: url('/fonts/PermianSerifTypeface/PermianSerifTypeface.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/PermianSerifTypeface/PermianSerifTypeface.woff') format('woff'), /* Pretty Modern Browsers */
-        url('/fonts/PermianSerifTypeface/PermianSerifTypeface.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface') format('svg'); /* Legacy iOS */
-    font-weight: 400; 
+    src: url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.otf') format('opentype'), /* Almost like ttf */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.svg#PermianSerifTypeface-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic; 
 }

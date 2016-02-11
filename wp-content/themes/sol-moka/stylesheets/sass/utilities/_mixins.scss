@@ -1,0 +1,26 @@
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// flexbox mixins
+@mixin flexbox() {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+@mixin flex-justify($justify-type) {
+  -webkit-justify-content: $justify-type; 
+  justify-content: $justify-type; 
+}
+
+@mixin flex-wrap($wrap_type) {
+  -webkit-flex-wrap: $wrap_type; /* Safari 6.1+ */
+  flex-wrap: $wrap_type;
+}

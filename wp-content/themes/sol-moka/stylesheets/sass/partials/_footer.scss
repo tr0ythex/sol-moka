@@ -1,0 +1,9 @@
+footer {
+  height: 125px;
+  background-color: $footer-bg;
+  nav.menu-bottom-container {
+    a {
+      color: $bottom-menu-text;
+    }
+  }
+}

@@ -1,12 +1,58 @@
 @import 'utilities/fonts';
 @import 'utilities/variables';
+@import 'utilities/mixins';
 @import 'partials/header';
 @import 'partials/footer';
 @import 'pages/index';
 
+// font classes
+.helvetica-neue-cyr-reg {
+  font-family: HelveticaNeueCyr;
+  font-weight: 400;
+}
+.helvetica-neue-cyr-light {
+  font-family: HelveticaNeueCyr;
+  font-weight: 300;
+}
+.permian-serif-typeface-reg {
+  font-family: PermianSerifTypeface;
+  font-weight: 400;
+}
+.permian-serif-typeface-italic {
+  font-family: PermianSerifTypeface;
+  font-style: italic;
+}
+
+// vertical align class
+.vertical-align {
+  @include vertical-align();
+}
+
+// flexbox classes
+.fxbx_block {
+    @include flexbox();
+}
+.fxbx_sp_between {
+    @include flex-justify(space-between);
+}
+.fxbx_wrap {
+    @include flex-wrap(wrap);
+}
+
+// common classes
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: $black-text;
+}
 .wrapper {
   width: 960px;
   min-width: 960px;
-  border: 1px solid red;
   margin: 0 auto;
 }

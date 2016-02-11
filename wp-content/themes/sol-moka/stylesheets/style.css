@@ -1,68 +1,180 @@
 @font-face {
-  font-family: Merel;
-  src: url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot");
+  font-family: HelveticaNeueCyr;
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf") format("opentype"), url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"), url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman") format("svg");
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf") format("opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman") format("svg");
+  /* Legacy iOS */
+  font-weight: 400;
+}
+@font-face {
+  font-family: HelveticaNeueCyr;
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.otf") format("opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light") format("svg");
   /* Legacy iOS */
   font-weight: 300;
 }
 @font-face {
-  font-family: Merel;
-  src: url("/fonts/Merel/Merel.eot");
+  font-family: PermianSerifTypeface;
+  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/Merel/Merel.eot?#iefix") format("embedded-opentype"), url("/fonts/Merel/Merel.otf") format("opentype"), url("/fonts/Merel/Merel.woff") format("woff"), url("/fonts/Merel/Merel.ttf") format("truetype"), url("/fonts/Merel/Merel.svg#Merel") format("svg");
+  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix") format("embedded-opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypefacs.otf") format("opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.woff") format("woff"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.ttf") format("truetype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface") format("svg");
   /* Legacy iOS */
   font-weight: 400;
-}
-@font-face {
-  font-family: Merel;
-  src: url("/fonts/Merel/Merel-Bold.eot");
-  /* IE9 Compat Modes */
-  src: url("/fonts/Merel/Merel-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Merel/Merel-Bold.otf") format("opentype"), url("/fonts/Merel/Merel-Bold.woff") format("woff"), url("/fonts/Merel/Merel-Bold.ttf") format("truetype"), url("/fonts/Merel/Merel-Bold.svg#Merel-Bold") format("svg");
-  /* Legacy iOS */
-  font-weight: 700;
-}
-@font-face {
-  font-family: LeksaPro;
-  src: url("/fonts/LeksaPro/LeksaPro-Light.eot");
-  /* IE9 Compat Modes */
-  src: url("/fonts/LeksaPro/LeksaPro-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/LeksaPro/LeksaPro-Light.woff") format("woff"), url("/fonts/LeksaPro/LeksaPro-Light.ttf") format("truetype"), url("/fonts/LeksaPro/LeksaPro-Light.svg#LeksaPro-Light") format("svg");
-  /* Legacy iOS */
-  font-weight: 700;
-}
-@font-face {
-  font-family: LeksaPro;
-  src: url("/fonts/LeksaPro/LeksaPro-Italic.eot");
-  /* IE9 Compat Modes */
-  src: url("/fonts/LeksaPro/LeksaPro-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/LeksaPro/LeksaPro-Italic.woff") format("woff"), url("/fonts/LeksaPro/LeksaPro-Italic.ttf") format("truetype"), url("/fonts/LeksaPro/LeksaPro-Italic.svg#LeksaPro-Italic") format("svg");
-  /* Legacy iOS */
-  font-style: italic;
 }
 @font-face {
   font-family: PermianSerifTypeface;
-  src: url("/fonts/PermianSerifTypeface/PermianSerifTypeface.eot");
+  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix") format("embedded-opentype"), url("/fonts/PermianSerifTypeface/PermianSerifTypeface.woff") format("woff"), url("/fonts/PermianSerifTypeface/PermianSerifTypeface.ttf") format("truetype"), url("/fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface") format("svg");
+  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.otf") format("opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.woff") format("woff"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.ttf") format("truetype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface-Italic.svg#PermianSerifTypeface-Italic") format("svg");
   /* Legacy iOS */
-  font-weight: 400;
+  font-style: italic;
 }
 header {
   height: 210px;
+  color: #353535;
 }
 header .h_left {
   float: left;
 }
 header .h_right {
   float: right;
+  text-align: center;
+}
+header .h_right p {
+  margin: 35px 0;
+  font-size: 19px;
+  color: #873644;
+}
+header .h_right p:last-of-type {
+  margin-left: 64px;
+  text-indent: -64px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #353535;
 }
 header .h_center {
+  width: 370px;
   overflow: hidden;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 200px;
+}
+header .h_center p:first-of-type {
+  text-transform: uppercase;
+}
+
+nav.menu-top-container {
+  background-color: #444444;
+  height: 108px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+#menu-top {
+  width: 960px;
+  height: 88px;
+  margin: 0 auto;
+}
+#menu-top li {
+  width: 240px;
+  font-size: 15px;
+  line-height: 29px;
+  height: inherit;
+}
+#menu-top li a {
+  display: block;
+  width: 140px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #E2E2E2;
   text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#menu-top li a:hover {
+  color: #adadad;
+}
+
+footer {
+  height: 125px;
+  background-color: #EFEFEF;
+}
+footer nav.menu-bottom-container a {
+  color: #8C8C8C;
+}
+
+.helvetica-neue-cyr-reg {
+  font-family: HelveticaNeueCyr;
+  font-weight: 400;
+}
+
+.helvetica-neue-cyr-light {
+  font-family: HelveticaNeueCyr;
+  font-weight: 300;
+}
+
+.permian-serif-typeface-reg {
+  font-family: PermianSerifTypeface;
+  font-weight: 400;
+}
+
+.permian-serif-typeface-italic {
+  font-family: PermianSerifTypeface;
+  font-style: italic;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fxbx_block {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.fxbx_sp_between {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.fxbx_wrap {
+  -webkit-flex-wrap: wrap;
+  /* Safari 6.1+ */
+  flex-wrap: wrap;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #353535;
 }
 
 .wrapper {
   width: 960px;
   min-width: 960px;
-  border: 1px solid red;
   margin: 0 auto;
 }

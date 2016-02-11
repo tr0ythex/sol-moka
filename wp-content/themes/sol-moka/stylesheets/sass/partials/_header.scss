@@ -1,13 +1,66 @@
 header {
   height: 210px;
+  color: $black-text;
   .h_left {
     float: left;
   }
   .h_right {
     float: right;
+    text-align: center;
+    p {
+      margin: 35px 0;
+      font-size: 19px;
+      color: $red-text;
+      &:last-of-type {
+        margin-left: 64px;
+        text-indent: -64px;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black-text;
+      }
+    }
   }
   .h_center {
+    width: 370px;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 200px;
+    p:first-of-type {
+      text-transform: uppercase;
+    }
+  }
+}
+
+nav.menu-top-container {
+  background-color: $black-bg;
+  height: 108px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+#menu-top {
+  width: 960px;
+  height: 88px;
+  margin: 0 auto;
+  li {
+    width: 240px;
+    font-size: 15px;
+    line-height: 29px;
+    height: inherit;
+    a {
+      display: block;
+      width: 140px;
+      margin: 0 auto;
+      text-transform: uppercase;
+      color: $white-text;
+      text-align: center;
+      
+      @include vertical-align();
+      
+      &:hover {
+        color: $menu-hover;
+      }
+    }
   }
 }
