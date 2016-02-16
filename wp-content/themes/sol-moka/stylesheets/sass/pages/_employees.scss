@@ -1,0 +1,25 @@
+.employees {
+  width: 80%;
+  margin: 30px auto;
+  .employee {
+    width: 30%;
+    text-align: center;
+    
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 75px;
+    }
+    .name {
+      font-size: 18px;
+    }
+    .information {
+      font-size: 16px;
+      line-height: 30px;
+    }
+    .tel {
+      font-size: 18px;
+      color: $red-text;
+    }
+  }
+}

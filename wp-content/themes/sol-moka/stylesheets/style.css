@@ -202,6 +202,31 @@ button.more a {
   height: inherit;
 }
 
+.employees {
+  width: 80%;
+  margin: 30px auto;
+}
+.employees .employee {
+  width: 30%;
+  text-align: center;
+}
+.employees .employee img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 75px;
+}
+.employees .employee .name {
+  font-size: 18px;
+}
+.employees .employee .information {
+  font-size: 16px;
+  line-height: 30px;
+}
+.employees .employee .tel {
+  font-size: 18px;
+  color: #873644;
+}
+
 .helvetica-neue-cyr-reg {
   font-family: HelveticaNeueCyr;
   font-weight: 400;
