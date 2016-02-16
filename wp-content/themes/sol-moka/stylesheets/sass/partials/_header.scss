@@ -1,20 +1,23 @@
 header {
-  height: 210px;
+  height: 180px;
   color: $black-text;
   .h_left {
     float: left;
+    img {
+      width: 130px;
+    }
   }
   .h_right {
     float: right;
-    text-align: center;
+    text-align: right;
     p {
-      margin: 35px 0;
-      font-size: 19px;
+      margin: 25px 0;
+      font-size: 17px;
       color: $red-text;
       &:last-of-type {
         margin-left: 64px;
         text-indent: -64px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
         color: $black-text;
       }
@@ -24,7 +27,7 @@ header {
     width: 370px;
     overflow: hidden;
     text-align: left;
-    font-size: 22px;
+    font-size: 19px;
     margin-left: 200px;
     p:first-of-type {
       text-transform: uppercase;

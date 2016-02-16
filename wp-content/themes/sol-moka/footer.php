@@ -1,5 +1,5 @@
     <footer class="helvetica-neue-cyr-light">
-      <div class="wrapper">
+      <div class="wrapper wrapper-960">
         <?php
           wp_nav_menu(array(
             'menu' => 'Bottom',

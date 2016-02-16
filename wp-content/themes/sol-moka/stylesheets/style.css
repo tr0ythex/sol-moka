@@ -31,25 +31,28 @@
   font-style: italic;
 }
 header {
-  height: 210px;
+  height: 180px;
   color: #353535;
 }
 header .h_left {
   float: left;
 }
+header .h_left img {
+  width: 130px;
+}
 header .h_right {
   float: right;
-  text-align: center;
+  text-align: right;
 }
 header .h_right p {
-  margin: 35px 0;
-  font-size: 19px;
+  margin: 25px 0;
+  font-size: 17px;
   color: #873644;
 }
 header .h_right p:last-of-type {
   margin-left: 64px;
   text-indent: -64px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   color: #353535;
 }
@@ -57,7 +60,7 @@ header .h_center {
   width: 370px;
   overflow: hidden;
   text-align: left;
-  font-size: 22px;
+  font-size: 19px;
   margin-left: 200px;
 }
 header .h_center p:first-of-type {
@@ -148,7 +151,7 @@ main h2 {
   text-transform: uppercase;
   color: #873644;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   margin: 52px 0 20px;
 }
@@ -158,17 +161,6 @@ main p {
 }
 main hr {
   margin-top: 30px;
-}
-main ul {
-  margin: 30px;
-  list-style: disc outside;
-}
-main ul li {
-  width: 420px;
-  line-height: 42px;
-}
-main ul li:nth-of-type(2n) {
-  width: 320px;
 }
 
 .slogan {
@@ -187,7 +179,7 @@ main ul li:nth-of-type(2n) {
   font-style: italic;
 }
 
-button.more {
+#home button.more {
   display: block;
   background: #353535;
   font-size: 15px;
@@ -197,34 +189,80 @@ button.more {
   line-height: 53px;
   margin: 30px auto;
 }
-button.more a {
+#home button.more a {
   color: white;
   height: inherit;
 }
-
-.employees {
-  width: 80%;
-  margin: 30px auto;
+#home ul {
+  padding-left: 30px;
+  list-style: disc outside;
 }
-.employees .employee {
+#home ul li {
+  width: 50%;
+  line-height: 42px;
+}
+#home ul li:nth-of-type(2n) {
+  width: 320px;
+}
+
+#advocates .advocates {
+  margin: 30px 0;
+}
+#advocates .advocates .advocate {
   width: 30%;
   text-align: center;
 }
-.employees .employee img {
+#advocates .advocates .advocate img {
   display: block;
   margin: 0 auto;
   border-radius: 75px;
 }
-.employees .employee .name {
+#advocates .advocates .advocate .name {
   font-size: 18px;
 }
-.employees .employee .information {
+#advocates .advocates .advocate .information {
   font-size: 16px;
   line-height: 30px;
 }
-.employees .employee .tel {
+#advocates .advocates .advocate .tel {
   font-size: 18px;
   color: #873644;
+}
+
+#price ul {
+  margin: 30px 0;
+  line-height: 32px;
+}
+#price ul li {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #873644;
+  font-weight: bold;
+}
+#price ul li ul {
+  margin: 0;
+}
+#price ul li ul li {
+  margin-top: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #353535;
+  display: block;
+  padding-right: 300px;
+  position: relative;
+  font-weight: normal;
+  border-top: 1px dashed #636363;
+}
+#price ul li ul li:last-of-type {
+  border-bottom: 1px dashed #636363;
+}
+#price ul li ul li span {
+  position: absolute;
+  right: 0;
+  bottom: calc(50% - 16px);
+  color: #873644 !important;
+  font-size: 18px;
+  display: block;
 }
 
 .helvetica-neue-cyr-reg {
@@ -301,8 +339,16 @@ a {
 }
 
 .wrapper {
-  width: 960px;
-  min-width: 960px;
   margin: 0 auto;
   overflow: auto;
+}
+
+.wrapper-760 {
+  width: 760px;
+  min-width: 760px;
+}
+
+.wrapper-960 {
+  width: 960px;
+  min-width: 960px;
 }

@@ -9,8 +9,18 @@
     echo get_template_directory_uri() . "/images";
   }
 ?>
-  
+
 <?php
+// Добавляем отображение стилей в окне редактора страницы
+// function my_theme_add_editor_styles() {
+//     add_editor_style( 'stylesheets/style.css' );
+// }
+// add_action( 'admin_init', 'my_theme_add_editor_styles' );
+?>
+
+
+<?php
+// Cusomizer (Онлайн-редактор темы)
 function sol_moka_customize_register( $wp_customize ) {
   class Sol_Moka_Customize_Textarea_Control extends WP_Customize_Control {
     public $type = 'textarea';

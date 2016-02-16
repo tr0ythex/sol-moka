@@ -7,7 +7,7 @@
     <link href="<?php get_css_path(); ?>/style.css" rel="stylesheet" media="all" type="text/css" />
   </head>
   <body>
-    <header class="helvetica-neue-cyr-light wrapper">
+    <header class="helvetica-neue-cyr-light wrapper wrapper-960">
       <div class="h_left logo vertical-align">
         <a href="/">
           <img src="<?php get_image_path(); ?>/logo_sol_moka.png">
@@ -34,6 +34,6 @@
       wp_nav_menu(array(
           'menu' => 'Top',
           'container' => 'nav',
-          'menu_class' => 'fxbx_block fxbx_sp_between fxbx_wrap helvetica-neue-cyr-reg wrapper'
+          'menu_class' => 'fxbx_block fxbx_sp_between fxbx_wrap helvetica-neue-cyr-reg wrapper wrapper-960'
       ));
     ?>

@@ -14,17 +14,31 @@
   }
 }
 
-button.more {
-  display: block;
-  background: $black-text;
-  font-size: 15px;
-  width: 216px;
-  height: 53px;
-  text-transform: uppercase;
-  line-height: 53px;
-  margin: 30px auto;
-  a {
-    color: white;
-    height: inherit;
+#home {
+  button.more {
+    display: block;
+    background: $black-text;
+    font-size: 15px;
+    width: 216px;
+    height: 53px;
+    text-transform: uppercase;
+    line-height: 53px;
+    margin: 30px auto;
+    a {
+      color: white;
+      height: inherit;
+    }
+  }
+  
+  ul {
+    padding-left: 30px;
+    list-style: disc outside;
+    li {
+      width: 50%;
+      line-height: 42px;
+      &:nth-of-type(2n) {
+        width: 320px;
+      }
+    }
   }
 }

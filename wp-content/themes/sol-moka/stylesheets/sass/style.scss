@@ -5,7 +5,9 @@
 @import 'partials/footer';
 @import 'partials/main';
 @import 'pages/home';
-@import 'pages/employees';
+@import 'pages/advocates';
+@import 'pages/price';
+@import 'pages/free_assistance';
 
 // font classes
 .helvetica-neue-cyr-reg {
@@ -63,8 +65,14 @@ a {
 }
 
 .wrapper {
-  width: 960px;
-  min-width: 960px;
   margin: 0 auto;
   overflow: auto;
+}
+.wrapper-760 {
+  width: 760px;
+  min-width: 760px;
+}
+.wrapper-960 {
+  width: 960px;
+  min-width: 960px;
 }
