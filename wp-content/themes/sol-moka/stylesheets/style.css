@@ -265,6 +265,41 @@ main hr {
   display: block;
 }
 
+#free-assistance .document {
+  background-color: #EFEFEF;
+  margin: 20px 0;
+  padding: 10px 20px;
+  position: relative;
+}
+#free-assistance .document:first-of-type {
+  margin-top: 50px;
+}
+#free-assistance .document:last-of-type {
+  margin-bottom: 50px;
+}
+#free-assistance .document h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #873644;
+  margin: 0;
+  line-height: 30px;
+}
+#free-assistance .document p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 30px;
+  padding-right: 100px;
+}
+#free-assistance .document a {
+  position: absolute;
+  display: block;
+  width: 39px;
+  height: 40px;
+  bottom: 10px;
+  right: 10px;
+  background-image: url(../images/download.png);
+}
+
 .helvetica-neue-cyr-reg {
   font-family: HelveticaNeueCyr;
   font-weight: 400;

@@ -1,5 +1,36 @@
 #free-assistance {
   .document {
-    
+    background-color: $footer-bg;
+    margin: 20px 0;
+    padding: 10px 20px;
+    position: relative;
+    &:first-of-type {
+      margin-top: 50px;
+    }
+    &:last-of-type {
+      margin-bottom: 50px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: $red-text;
+      margin: 0;
+      line-height: 30px;
+    }
+    p {
+      font-size: 16px;
+      margin: 0;
+      line-height: 30px;
+      padding-right: 100px;
+    }
+    a {
+      position: absolute;
+      display: block;
+      width: 39px;
+      height: 40px;
+      bottom: 10px;
+      right: 10px;
+      background-image: url(../images/download.png);
+    }
   }
 }
