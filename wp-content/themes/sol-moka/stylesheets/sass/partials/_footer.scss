@@ -1,9 +1,39 @@
 footer {
   height: 125px;
   background-color: $footer-bg;
-  nav.menu-bottom-container {
-    a {
-      color: $bottom-menu-text;
+  color: $footer-text;
+  nav {
+    width: 670px;
+    height: 125px;
+    overflow: auto;
+    float: left;
+    #menu-bottom {
+      width: 100%;
+      height: 96px;
+      overflow: auto;
+      font-size: 15px;
+      li {
+        float: left;
+        width: 250px;
+        line-height: 32px;
+        &:nth-child(2n+1) {
+          margin-right: 100px;
+        }
+        a {
+          color: $footer-text;
+          &:hover {
+            color: $black-text;
+          }
+        }
+      }
+    }
+  }
+  .f_right {
+    float: right;
+    font-size: 17px;
+    text-align: right;
+    p {
+      margin: 17px 0;
     }
   }
 }

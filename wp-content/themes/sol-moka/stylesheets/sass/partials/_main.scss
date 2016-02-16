@@ -1,0 +1,30 @@
+main {
+  font-size: 18px;
+  h2 {
+    text-transform: uppercase;
+    color: $red-text;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin: 52px 0 20px;
+  }
+  p {
+    line-height: 42px;
+    margin: 20px 0;
+  }
+  hr {
+    margin-top: 30px;
+  }
+  ul {
+    margin: 30px;
+    list-style: disc outside;
+    // text-align: center;
+    li {
+      width: 420px;
+      line-height: 42px;
+      &:nth-of-type(2n) {
+        width: 320px;
+      }
+    }
+  }
+}

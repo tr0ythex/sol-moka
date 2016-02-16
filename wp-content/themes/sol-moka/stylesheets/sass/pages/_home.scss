@@ -1,0 +1,30 @@
+.slogan {
+  height: 270px;
+  background-image: url(../images/slogan.png);
+  background-size: cover;
+  overflow: auto;
+  color: white;
+  text-align: center;
+  p.phrase {
+    font-size: 50px;
+  }
+  p.clarification {
+    font-size: 30px;
+    font-style: italic;
+  }
+}
+
+button.more {
+  display: block;
+  background: $black-text;
+  font-size: 15px;
+  width: 216px;
+  height: 53px;
+  text-transform: uppercase;
+  line-height: 53px;
+  margin: 30px auto;
+  a {
+    color: white;
+    height: inherit;
+  }
+}

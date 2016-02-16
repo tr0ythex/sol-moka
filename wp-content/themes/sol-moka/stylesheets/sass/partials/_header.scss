@@ -30,25 +30,27 @@ header {
       text-transform: uppercase;
     }
   }
-}
-
-nav.menu-top-container {
-  background-color: $black-bg;
-  height: 108px;
-  padding: 10px 0;
-  box-sizing: border-box;
+  & + nav {
+    background-color: $black-bg;
+    height: 108px;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
 }
 
 #menu-top {
-  width: 960px;
   height: 88px;
-  margin: 0 auto;
   li {
-    width: 240px;
+    width: 239px;
     font-size: 15px;
     line-height: 29px;
     height: inherit;
+    border-right: 1px solid $grey-stroke;
+    &:last-child {
+      border: none;
+    }
     a {
+      height: auto;
       display: block;
       width: 140px;
       margin: 0 auto;

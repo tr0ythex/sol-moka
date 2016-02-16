@@ -3,7 +3,8 @@
 @import 'utilities/mixins';
 @import 'partials/header';
 @import 'partials/footer';
-@import 'pages/index';
+@import 'partials/main';
+@import 'pages/home';
 
 // font classes
 .helvetica-neue-cyr-reg {
@@ -13,6 +14,9 @@
 .helvetica-neue-cyr-light {
   font-family: HelveticaNeueCyr;
   font-weight: 300;
+}
+.permian-serif-typeface {
+  font-family: PermianSerifTypeface;
 }
 .permian-serif-typeface-reg {
   font-family: PermianSerifTypeface;
@@ -40,19 +44,26 @@
 }
 
 // common classes
-body, ul, li {
+body, ul, li, button {
   margin: 0;
   padding: 0;
+  background: none;
+  border: none;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: $black-text;
+  display: block;
 }
+
 .wrapper {
   width: 960px;
   min-width: 960px;
   margin: 0 auto;
+  overflow: auto;
 }

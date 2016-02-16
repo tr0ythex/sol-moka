@@ -18,7 +18,7 @@
   font-family: PermianSerifTypeface;
   src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix") format("embedded-opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypefacs.otf") format("opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.woff") format("woff"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.ttf") format("truetype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface") format("svg");
+  src: url("../fonts/PermianSerifTypeface/PermianSerifTypeface.eot?#iefix") format("embedded-opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.otf") format("opentype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.woff") format("woff"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.ttf") format("truetype"), url("../fonts/PermianSerifTypeface/PermianSerifTypeface.svg#PermianSerifTypeface") format("svg");
   /* Legacy iOS */
   font-weight: 400;
 }
@@ -63,8 +63,7 @@ header .h_center {
 header .h_center p:first-of-type {
   text-transform: uppercase;
 }
-
-nav.menu-top-container {
+header + nav {
   background-color: #444444;
   height: 108px;
   padding: 10px 0;
@@ -72,17 +71,20 @@ nav.menu-top-container {
 }
 
 #menu-top {
-  width: 960px;
   height: 88px;
-  margin: 0 auto;
 }
 #menu-top li {
-  width: 240px;
+  width: 239px;
   font-size: 15px;
   line-height: 29px;
   height: inherit;
+  border-right: 1px solid #636363;
+}
+#menu-top li:last-child {
+  border: none;
 }
 #menu-top li a {
+  height: auto;
   display: block;
   width: 140px;
   margin: 0 auto;
@@ -102,9 +104,102 @@ nav.menu-top-container {
 footer {
   height: 125px;
   background-color: #EFEFEF;
-}
-footer nav.menu-bottom-container a {
   color: #8C8C8C;
+}
+footer nav {
+  width: 670px;
+  height: 125px;
+  overflow: auto;
+  float: left;
+}
+footer nav #menu-bottom {
+  width: 100%;
+  height: 96px;
+  overflow: auto;
+  font-size: 15px;
+}
+footer nav #menu-bottom li {
+  float: left;
+  width: 250px;
+  line-height: 32px;
+}
+footer nav #menu-bottom li:nth-child(2n+1) {
+  margin-right: 100px;
+}
+footer nav #menu-bottom li a {
+  color: #8C8C8C;
+}
+footer nav #menu-bottom li a:hover {
+  color: #353535;
+}
+footer .f_right {
+  float: right;
+  font-size: 17px;
+  text-align: right;
+}
+footer .f_right p {
+  margin: 17px 0;
+}
+
+main {
+  font-size: 18px;
+}
+main h2 {
+  text-transform: uppercase;
+  color: #873644;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 52px 0 20px;
+}
+main p {
+  line-height: 42px;
+  margin: 20px 0;
+}
+main hr {
+  margin-top: 30px;
+}
+main ul {
+  margin: 30px;
+  list-style: disc outside;
+}
+main ul li {
+  width: 420px;
+  line-height: 42px;
+}
+main ul li:nth-of-type(2n) {
+  width: 320px;
+}
+
+.slogan {
+  height: 270px;
+  background-image: url(../images/slogan.png);
+  background-size: cover;
+  overflow: auto;
+  color: white;
+  text-align: center;
+}
+.slogan p.phrase {
+  font-size: 50px;
+}
+.slogan p.clarification {
+  font-size: 30px;
+  font-style: italic;
+}
+
+button.more {
+  display: block;
+  background: #353535;
+  font-size: 15px;
+  width: 216px;
+  height: 53px;
+  text-transform: uppercase;
+  line-height: 53px;
+  margin: 30px auto;
+}
+button.more a {
+  color: white;
+  height: inherit;
 }
 
 .helvetica-neue-cyr-reg {
@@ -115,6 +210,10 @@ footer nav.menu-bottom-container a {
 .helvetica-neue-cyr-light {
   font-family: HelveticaNeueCyr;
   font-weight: 300;
+}
+
+.permian-serif-typeface {
+  font-family: PermianSerifTypeface;
 }
 
 .permian-serif-typeface-reg {
@@ -159,9 +258,11 @@ footer nav.menu-bottom-container a {
   flex-wrap: wrap;
 }
 
-body, ul, li {
+body, ul, li, button {
   margin: 0;
   padding: 0;
+  background: none;
+  border: none;
 }
 
 ul {
@@ -171,10 +272,12 @@ ul {
 a {
   text-decoration: none;
   color: #353535;
+  display: block;
 }
 
 .wrapper {
   width: 960px;
   min-width: 960px;
   margin: 0 auto;
+  overflow: auto;
 }
