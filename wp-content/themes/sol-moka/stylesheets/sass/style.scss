@@ -8,6 +8,7 @@
 @import 'pages/advocates';
 @import 'pages/price';
 @import 'pages/free_assistance';
+@import 'pages/contacts';
 
 // font classes
 .helvetica-neue-cyr-reg {
@@ -62,6 +63,10 @@ a {
   text-decoration: none;
   color: $black-text;
   display: block;
+  &[href^=mailto] {
+    display: inline-block;
+    color: $red-text;
+  }
 }
 
 .wrapper {

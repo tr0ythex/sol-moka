@@ -37,6 +37,8 @@ function sol_moka_customize_register( $wp_customize ) {
   $wp_customize->add_setting('tel_setting', array('default' => '8 (495) 994-15-86'));
   $wp_customize->add_setting('email_setting', array('default' => 'sol-moka@yandex.ru'));
   $wp_customize->add_setting('address_setting', array('default' => 'г. Солнечногорск, ул. Красная, 37 А'));
+  $wp_customize->add_setting('working_hours_setting', array('default' => 'пн-пт с 9:00 до 16:00'));
+  
   $wp_customize->add_control(new Sol_Moka_Customize_Textarea_Control($wp_customize, 'tel_setting', array(
     'label' => 'Тел. (факс)',
     'section' => 'content',
@@ -51,6 +53,11 @@ function sol_moka_customize_register( $wp_customize ) {
     'label' => 'Адрес',
     'section' => 'content',
     'settings' => 'address_setting',
+  )));
+  $wp_customize->add_control(new Sol_Moka_Customize_Textarea_Control($wp_customize, 'working_hours_setting', array(
+    'label' => 'Часы работы',
+    'section' => 'content',
+    'settings' => 'working_hours_setting',
   )));
   $wp_customize->add_section('content' , array(
     'title' => __('Содержимое','Sol_Moka'),

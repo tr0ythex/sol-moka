@@ -140,12 +140,15 @@ footer .f_right {
   font-size: 17px;
   text-align: right;
 }
+footer .f_right a[href^=mailto] {
+  color: inherit;
+}
 footer .f_right p {
   margin: 17px 0;
 }
 
 main {
-  font-size: 18px;
+  font-size: 16px;
 }
 main h2 {
   text-transform: uppercase;
@@ -156,7 +159,7 @@ main h2 {
   margin: 52px 0 20px;
 }
 main p {
-  line-height: 42px;
+  line-height: 36px;
   margin: 20px 0;
 }
 main hr {
@@ -164,7 +167,7 @@ main hr {
 }
 
 .slogan {
-  height: 270px;
+  height: 250px;
   background-image: url(../images/slogan.png);
   background-size: cover;
   overflow: auto;
@@ -172,10 +175,10 @@ main hr {
   text-align: center;
 }
 .slogan p.phrase {
-  font-size: 50px;
+  font-size: 46px;
 }
 .slogan p.clarification {
-  font-size: 30px;
+  font-size: 26px;
   font-style: italic;
 }
 
@@ -199,7 +202,7 @@ main hr {
 }
 #home ul li {
   width: 50%;
-  line-height: 42px;
+  line-height: 36px;
 }
 #home ul li:nth-of-type(2n) {
   width: 320px;
@@ -300,6 +303,17 @@ main hr {
   background-image: url(../images/download.png);
 }
 
+.contacts_block {
+  margin: 40px 0;
+}
+.contacts_block .contacts_item {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.contacts_block .contacts_item:nth-of-type(2n) {
+  text-align: right;
+}
+
 .helvetica-neue-cyr-reg {
   font-family: HelveticaNeueCyr;
   font-weight: 400;
@@ -371,6 +385,10 @@ a {
   text-decoration: none;
   color: #353535;
   display: block;
+}
+a[href^=mailto] {
+  display: inline-block;
+  color: #873644;
 }
 
 .wrapper {

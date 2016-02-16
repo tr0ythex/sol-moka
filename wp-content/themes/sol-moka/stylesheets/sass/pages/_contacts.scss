@@ -1,0 +1,10 @@
+.contacts_block {
+  margin: 40px 0;
+  .contacts_item {
+    width: 50%;
+    margin-bottom: 20px;
+    &:nth-of-type(2n) {
+      text-align: right;
+    }
+  }
+}

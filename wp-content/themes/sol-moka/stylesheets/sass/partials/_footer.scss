@@ -32,6 +32,9 @@ footer {
     float: right;
     font-size: 17px;
     text-align: right;
+    a[href^=mailto] {
+      color: inherit;
+    }
     p {
       margin: 17px 0;
     }

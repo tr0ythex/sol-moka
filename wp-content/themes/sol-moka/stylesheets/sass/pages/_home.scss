@@ -1,15 +1,15 @@
 .slogan {
-  height: 270px;
+  height: 250px;
   background-image: url(../images/slogan.png);
   background-size: cover;
   overflow: auto;
   color: white;
   text-align: center;
   p.phrase {
-    font-size: 50px;
+    font-size: 46px;
   }
   p.clarification {
-    font-size: 30px;
+    font-size: 26px;
     font-style: italic;
   }
 }
@@ -35,7 +35,7 @@
     list-style: disc outside;
     li {
       width: 50%;
-      line-height: 42px;
+      line-height: 36px;
       &:nth-of-type(2n) {
         width: 320px;
       }
