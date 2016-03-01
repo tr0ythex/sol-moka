@@ -23,5 +23,6 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript" src="<?php get_js_path() ?>/adv_name.js"></script>
   </body>
 </html>
