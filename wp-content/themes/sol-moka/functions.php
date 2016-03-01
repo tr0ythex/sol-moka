@@ -12,10 +12,10 @@
 
 <?php
 // Добавляем отображение стилей в окне редактора страницы
-// function my_theme_add_editor_styles() {
-//     add_editor_style( 'stylesheets/style.css' );
-// }
-// add_action( 'admin_init', 'my_theme_add_editor_styles' );
+function my_theme_add_editor_styles() {
+    add_editor_style( 'custom_editor_styles.css' );
+}
+add_action( 'admin_init', 'my_theme_add_editor_styles' );
 ?>
 
 
