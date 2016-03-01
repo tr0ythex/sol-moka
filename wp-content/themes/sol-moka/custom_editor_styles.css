@@ -1,5 +1,21 @@
-@import url( '/stylesheets/style.css' );
+/*@import url( '/stylesheets/style.css' );*/
 
-div {
-  border: 1px solid red;
+.advocate {
+  border: 2px solid red;
+}
+
+.advocate img {
+  border: 2px solid blue;
+}
+
+.name {
+  border: 2px solid blue;
+}
+
+.information {
+  border: 2px solid blue
+}
+
+.tel {
+  border: 2px solid blue
 }
